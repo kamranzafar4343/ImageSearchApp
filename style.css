@@ -18,3 +18,51 @@ h1{
     text-align: center;
     margin: 12px 0px 12px  0px;
 }
+
+form{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+height: 30px;
+
+
+}
+
+#search-button{
+    margin-left: 10px;
+}
+
+.search-results{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 20px 5px 20px;
+    
+}
+
+.search-result{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.search-result img{
+    max-width: 95%;
+    max-height: fit-content;
+}
+
+.search-results :hover img{
+    opacity: 0.7;
+}
+
+.search-results a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 25px;
+}
+
+#more-button{
+    
+}
