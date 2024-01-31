@@ -23,13 +23,20 @@ form{
 display: flex;
 justify-content: center;
 margin-bottom: 20px;
-height: 30px;
-
+height: 37px;
+width: 100%;
+font-size: 20px;
 
 }
 
 #search-button{
     margin-left: 10px;
+    background-color: azure;
+    color: black;
+    font-size: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
 }
 
 .search-results{
@@ -60,9 +67,33 @@ height: 30px;
     text-decoration: none;
     text-transform: capitalize;
     color: black;
-    font-size: 25px;
+    font-size: 14px;
+    display:block;
 }
 
-#more-button{
-    
+.more-button{
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 50% ;
+    background-color: azure;
+    color: black;
+    display: none;
+
+}
+
+@media screen and (max-width: 768px){
+    .search-results{
+        padding: 20px;
+    }
+    .search-results{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-results{
+        width: 100%;
+    }
+
 }
