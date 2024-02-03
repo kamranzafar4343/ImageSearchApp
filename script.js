@@ -49,12 +49,12 @@ async function searchImages() {
 }
 
 
-formEl.addEventListener("submit", (event)=>{
+formEl.addEventListener("submit", (event) => {
     event.preventDefault();
     page = 1;
     searchImages();
 })
 
-showMore.addEventListener("click", ()=>{
+showMore.addEventListener("click", () => {
     searchImages();
 })
