@@ -45,7 +45,7 @@ h3{
     
 }
 
-button :hover{
+#search-button{
 cursor: pointer;
 }
 
@@ -111,13 +111,13 @@ cursor: pointer;
     .search-results{
         padding: 20px;
     }
-    .search-results{
+    .search-result{
         width: 45%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .search-results{
+    .search-result{
         width: 100%;
     }
 
