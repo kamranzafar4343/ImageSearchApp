@@ -16,16 +16,16 @@ h1{
     font-style: bold;
     font-size: 36px;
     text-align: center;
-    margin: 12px 0px 12px  0px;
+    margin: 50px 0px 40px  0px;
 }
 
 form{
 display: flex;
 justify-content: center;
-margin-bottom: 20px;
-height: 37px;
+margin-bottom: 40px;
+height: 34px;
 width: 100%;
-font-size: 20px;
+font-size: 24px;
 
 }
 
@@ -38,6 +38,11 @@ font-size: 20px;
     padding-right: 2px;
     
 }
+
+button :hover{
+cursor: pointer;
+}
+
 
 .search-results{
     display: flex;
@@ -75,11 +80,17 @@ font-size: 20px;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
-    margin-left: 50% ;
+    /* margin-left: 50% ; */
     background-color: azure;
     color: black;
     display: none;
+    margin-bottom: 20px;
+    margin-left: 660px;
 
+}
+
+#more-button{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
